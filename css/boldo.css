@@ -1,0 +1,314 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}.all {
+  background-image:url(/images/Rectangle\ 1267.png);
+}
+
+.container {
+width: 1400px;
+height: 798px;
+margin: 0 auto;
+}
+.visually-hidden{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 100px;
+   
+}
+
+.header__logo {
+  vertical-align: middle;
+
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 500px;
+}
+
+.header__list-item {
+  margin: 0 10px;
+  margin-left: 40px;
+}
+
+.header__list-item__link {
+  text-decoration: none;
+  color: white;
+}
+
+.header__button {
+  background-color:white;
+  color:#0a2640;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  left: 20px;
+}
+/* hero section */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* margin-bottom: 200px; */
+  
+}
+
+.hero__left {
+  max-width: 50%;
+ 
+}
+
+.hero__left-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: white;
+  margin-top: 50px;
+  
+}
+
+.hero__left-text {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: white;
+ 
+}
+
+.hero__left-btn {
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.hero__left-buy {
+  background-color:#65E4A3;
+  color:#0a2640;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 247px;
+  height: 60px;
+}
+
+.hero__left-exp {
+  background-color: #0a2640;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 187px;
+  height: 60px;
+}
+/* .hero__bottom{
+  display: block;
+ margin-bottom: 10px;
+} */
+/* services */
+.allservices {
+  background-color: white;
+ }
+
+.container {
+  width: 1400px;
+  height: 798px;
+  margin: 0 auto;
+}
+
+.Ourservices{
+  text-align: center;
+  padding: 60px 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.services__title {
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-bottom: 50px;
+  /* display: flex;
+  flex-direction: column; */
+  margin-bottom: 70px;
+  
+}
+
+.services__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 60px;
+  
+
+}
+
+.services__list-items {
+  flex-basis: calc(33.33% - 20px);
+  margin: 0 10px;
+ 
+}
+
+.services__list-items img {
+  width: 100%;
+
+}
+
+.services__list-items h5 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 20px 0;
+ 
+}
+
+.services__list-items p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: rgb(91, 88, 88);
+  margin-top: 10px;
+ 
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #0a2640;
+  gap: 0;
+}
+.link img{
+  gap: 5px;
+}
+
+
+.services__customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.services__customer1,
+.customer__services2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+   background-color: #fff;
+  padding: 30px;
+  margin: 20px;
+}
+.services__customer-image{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.services__customer-text {
+  padding-left: 30px;
+  width: 493px;
+  height: 479px;
+}
+
+.services__customer-text h3 {
+  color: #605c5c;
+  font-size: 44px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+.services__customer-text ul {
+  list-style-type: none;
+}
+
+.services__customer-text li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.services__customer-text p {
+  padding-left: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.services__customer-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+.services__customer-items{
+  display: inline-block;
+  margin-bottom: 15px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  border: 1px solid gainsboro;
+  background-color: #fff;
+  width: 430px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: rgb(91, 88, 88) ;
+  
+}
+.services__customer-items:hover{
+  background-color: #05294b;
+  color:red;
+  font-size: larger;
+  font-weight: bold;
+}
+/* template */
+
+.template {
+  background-color: #0a2640;
+  
+}
+.template__title {
+  left: 10px  ;
+  margin-bottom: 50px;
+ 
+}
+.template__arrows {
+  margin: 0 auto;
+}
+
+.template__testimonials-list {
+  display: flex;
+  width: 100px;
+ 
+}
+.template__testimonials-items {
+}
